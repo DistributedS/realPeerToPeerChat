@@ -15,7 +15,7 @@ public class PeerToPeerClient {
     private boolean connected = false;
     
     //Getter function for peer list.
-    public List<String> getPeerList() {
+    public synchronized List<String> getPeerList() {
         return peerList;
     }
     
