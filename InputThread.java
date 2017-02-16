@@ -20,7 +20,7 @@ public class InputThread extends Thread {
     //InputStream inputStream;
     HandleIncommingThread handleIncommingThread;
     
-    public synchronized String getPeerList(){
+    public String getPeerList(){
         //Return all stored peer IPs in a String to be sent to the requested client.
         List<String> peerList;
         
